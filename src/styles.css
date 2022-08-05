@@ -1,1 +1,299 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+	background: #ffffff none repeat scroll 0 0!important;
+    color: #8d9297!important;
+    font-family: 'Roboto', sans-serif!important;
+    /* font-size: 16px; */
+}
+
+/* Top header style */
+.top-header {
+	border-bottom: 1px solid #eee;
+}
+.top-header.light_skin,
+.light_skin .border_list::before {
+	border-color: rgba(255,255,255,0.2);
+}
+.top-header {
+	transition: all 0.5s ease-in-out;
+}
+.top-header[class*="bg_"], .top-header[class*="bg-"] {
+	border: 0;
+}
+.top-header span {
+	font-size: 14px;
+}
+.header_wrap .social_icons li {
+	padding-bottom: 0;
+}
+.social_icons, .contact_detail {
+	font-size: 0;
+}
+.contact_detail > li:last-child,
+.header_list > li:last-child {
+	padding-right: 0;
+}
+.social_icons li {
+	display: inline-block;
+	padding: 0px 5px 5px 0;
+}
+.social_icons li a {
+	font-size: 18px;
+	color: #777777;
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.social_icons li a:hover, 
+.header_wrap .social_icons li a:hover {
+	color: #3476fe;
+}
+.social_icons.social_small li a {
+	height: 25px;
+	width: 25px;
+	line-height: 26px;
+	font-size: 16px;
+}
+.social_white .social_icons li a, .social_white.social_icons li a,
+.header_wrap .social_white .social_icons li a, .header_wrap .social_white.social_icons li a {
+	color: #fff;
+	border-color: #fff;
+}
+.social_white .social_icons li a:hover, .social_white.social_icons li a:hover {
+	color: #3476fe;
+}
+.border_social .social_icons li a:hover, .border_social.social_icons li a:hover {
+	background-color: #3476fe;
+	border-color: #3476fe;
+	color: #fff;
+}
+.border_social.social_white .social_icons li a:hover, .social_white.border_social.social_icons li a:hover {
+	color: #fff;
+}
+.border_social li a {
+	border: 1px solid #687188;
+	line-height: 35px;
+}
+.social_icons li:last-child a {
+	margin-right: 0px;
+}
+.radius_social li a {
+	border-radius: 5px;
+}
+.rounded_social li a {
+	border-radius: 50px;
+}
+.social_icons.social_style1 li a {
+	background-color: rgba(255,255,255,0.1);
+}
+.social_icons.social_style1 li a:hover {
+	background-color: #3476fe;
+	color: #fff !important;
+}
+.social_style2 li a {
+	background-color: #FFF;
+	box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.social_style3 li a {
+	background-color: #F6F8F9;
+	color: #B2B2B7;
+	font-size: 20px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+.social_style4 li a {
+	background-color: #3476fe;
+	color: #fff;
+}
+.social_style4 li a:hover {
+	background-color: #fff;
+	color: #3476fe !important;
+}
+.vertical_social li {
+	display: block;
+}
+.header_wrap .social_icons li a {
+	color: #333;
+}
+.contact_detail i {
+	margin-right: 10px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.contact_detail span {
+	vertical-align: middle;
+}
+.contact_detail > li {
+	color: #333;
+	list-style: none;
+	font-size: 14px;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 7px 15px 7px 0;
+}
+.header_list > li {
+	list-style: none;
+	display: inline-block;
+}
+.header_list > li a {
+	font-size: 14px;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 8px 15px 8px 15px;
+}
+.header_list > li i {
+	margin-right: 6px;
+}
+.border_list {
+	position: relative;
+}
+.border_list::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	border-left: 1px solid #ddd;
+	top: 0px;
+	bottom: 0;
+}
+.header_list > li .dropdown-item:hover,
+.custome_dropdown .ddChild li:hover,
+.contact_detail > li a:hover {
+	color: #F32B56;
+}
+.header_dropdown .dropdown-menu {
+	border-radius: 0;
+	padding: 0;
+	margin-top: 0px;
+	border: 0;
+	transform: none !important;
+	top: 100% !important;
+	will-change: auto !important;
+}
+.header_dropdown .dropdown-menu[x-placement^="bottom"], .dropdown-menu[x-placement^="left"], .dropdown-menu[x-placement^="right"], .dropdown-menu[x-placement^="top"] {
+	right: 0;
+	left: auto !important;
+}
+.header_dropdown .dropdown-item {
+	padding: 5px 10px;
+	border-bottom: 1px solid #e6e6e6;
+	text-transform: capitalize;
+}
+.contact_detail li:first-child {
+	margin-left: 0px;
+}
+.contact_detail li a span {
+	vertical-align: middle;
+}
+.top-header.light_skin .contact_detail li,
+.top-header.light_skin .contact_detail li a,
+.top-header.light_skin .widget_text span {
+	color: #fff;
+}
+.top-header.dark_skin .contact_detail li {
+	color: #000;
+}
+.nav-fixed .top-header,
+.nav-fixed .middle_header {
+	display: none !important;
+}
+.middle_header {
+	padding: 15px 0;
+}
+.navbar-toggler {
+	float: right;
+	margin: 13px 0 0 5px;
+	font-size: 28px;
+	color: #333;
+	transition: all 0.5s ease 0s;
+	border-radius: 0;
+	height: 35px;
+	width: 35px;
+	padding: 0;
+	line-height: 36px;
+	transition: none;
+}
+.navbar-toggler[aria-expanded="true"] span::before {
+    content: "\f129";
+    font-size: 16px;
+}
+.navbar-toggler[aria-expanded="true"] {
+	line-height: 32px;
+	font-size: 20px;
+}
+header .attr-nav + .social_icons {
+	border-left: 1px solid #333;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+header .attr-nav + .social_icons li {
+	padding: 0;
+}
+header.light_skin .attr-nav + .social_icons {
+	border-color: #fff;
+}
+header.light_skin.nav-fixed .attr-nav + .social_icons {
+	border-color: #333;
+}
+header.light_skin.nav-fixed .social_icons li a {
+	color: #000;
+}
+header.light_skin.nav-fixed .social_icons li a:hover {
+    color: #0E93D8;
+}
+.search_box {
+	position: relative;
+}
+.search_box input {
+	padding-right: 30px;
+}
+.search_box button {
+	border: 0;
+	padding: 0 10px;
+	background-color: transparent;
+	font-size: 22px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	cursor: pointer;
+}
+.top-header.light_skin .header_list li a,
+.top-header.light_skin .ddArrow::before,
+.top-header.light_skin .ddcommon .ddTitle .ddlabel {
+	color: #fff;
+}
+.top-header.light_skin .header_list > li::before {
+	background-color: #fff;
+}
+.top-header .custome_dropdown .ddChild {
+	background-color: #fff;
+	border: 0 !important;
+	min-width: 10rem;
+	left: -10px;
+}
+.top-header.light_skin .header_list li a:hover, 
+.top-header.light_skin .contact_detail li a:hover, 
+.top-header.light_skin .header_list li a:hover span {
+	color: #3476fe;
+}
+.main_menu_uppercase .navbar-nav > li > .nav-link {
+	text-transform: uppercase;
+}
+.main_menu_weight_100 .navbar .navbar-nav > li > .nav-link {
+	font-weight: 100;
+}
+.main_menu_weight_200 .navbar .navbar-nav > li > .nav-link {
+	font-weight: 200;
+}
+.main_menu_weight_300 .navbar .navbar-nav > li > .nav-link {
+	font-weight: 300;
+}
+
+.bg_dark {
+    background-color: #1D2224 !important;
+}

@@ -1,0 +1,277 @@
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+}
+.hero-container {
+    height: 70vh;
+}
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item {
+    height: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon  {
+    background: none;
+    background-color: #686D71 ;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    bottom: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    left: 8%;
+    top: 0;
+    align-items: center;
+    display: flex;
+    text-align: left;
+}
+
+.carousel-caption h2 {
+    color: #535355;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 25px;
+    border-left: 9px solid #E6BE1E;
+    min-width: 40%;
+    display: inline-block;
+    background: #FFFFFF;
+}
+
+.carousel-caption button {
+    background-color: rgb(255, 135, 0);
+    text-transform: uppercase;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 13px;
+    border-color: rgb(255, 135, 0);
+    border-style: solid;
+    border-width: 2px;
+    padding: 12px 20px 14px;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    border-radius: 0;
+}
+
+.welcome-div{
+    background-color: #e6be1e;
+    padding-left: 10rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.welcome-div h2{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 26px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.welcome-div p{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 23px;
+    text-align: left;
+}
+
+.notification-icon i{    
+    padding-top: 13px !important;
+    padding-right: 13px !important;
+    padding-bottom: 13px !important;
+    padding-left: 13px !important;
+    background-color: #ffffff !important;
+}
+
+
+.notification-icon i{
+    font-size: 35px !important;
+    color: #e6be1e !important;
+}
+
+
+.about-us-highlights {
+    background-color: #f2f2f2;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+}
+
+.about-us-highlights h2 {
+    font-size: 18px;
+    color: #505050;
+    line-height: 29px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us-highlights p {
+    font-size: 15px;
+    color: #999999;
+    line-height: 23px;
+    text-align: left;
+}
+
+.about-section {
+	/* padding: 100px 0; */
+	position:relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+.about_img img {
+	width: 100%;
+}
+
+.heading_s1, .heading_s4 {
+    margin-bottom: 20px;
+}
+
+.about_section .sub_heading {
+    margin-bottom: 10px;
+}
+
+.about_section .sub_heading span {
+    color: #ef8134;
+ }
+
+ .about_section .heading_s1 h2 {
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+    color:#222222;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+ } 
+ 
+ .about_section p{
+    color: #8d9297;
+    line-height: 28px;
+    margin-bottom: 20px;
+ }
+
+ .about_section a {
+    background-color: #ef8134;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    border-width: 1px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 16px 34px;
+    text-transform: capitalize;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+ }
+
+ .about_section a:hover {
+    background-color: #EEAC24;
+}
+.at-a-glance .first-section h6 {
+    font-size: 13px;
+    color: #979797;
+    text-align: left;
+}
+p.dash-before {
+    font-size: 18px;
+    color: #333436;
+    line-height: 21px;
+    text-align: left;
+    position: relative;
+    padding-left: 24px;
+}
+.dash-before:before {
+    position: absolute;
+    content: "\2014";
+    left: 2px;
+}
+.at-a-glance .second-col p{
+    font-size: 30px;
+    color: #333333;
+    line-height: 46px;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.icon {
+    font-size: 35px !important;
+    color: #ffffff !important;
+    padding-top: 13px !important;
+    padding-right: 13px !important;
+    padding-bottom: 13px !important;
+    padding-left: 13px !important;
+    background-color: #6c98e1 !important;
+}
+.icon-trophy {
+    font-size: 35px !important;
+    color: #ffffff !important;
+}
+.icon-basketball {
+    background-color: #d93ad0 !important;
+}
+.icon-review {
+    background-color: #84c54e !important;
+}
+.icon a {
+    font-size: 35px !important;
+    color: #ffffff !important;
+}
+
+.at-a-glance .second-section .icon-container h6 {
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 7px !important;
+    margin-top: 0;
+}
+.at-a-glance .second-section p {
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+}
+.discover-our-school-container {
+    padding-left: 0.7rem;
+}
+.discover-our-school {
+    background-color: #e6be1e !important;
+}
+.discover-our-school h6 {
+    color: #ffffff;
+    text-align: left;
+    font-weight: normal;
+}
+.discover-our-school h2 {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: left;
+}
+.discover-our-school i {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+@media (max-width: 1199.98px) {
+    .carousel-item img {
+        height: 482px;
+        object-fit: cover;
+    }
+}
