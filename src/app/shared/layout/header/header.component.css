@@ -1,0 +1,16 @@
+
+ul {
+  margin-bottom: 0;
+}
+
+.header_list .nav_btn:hover {
+  color: var(--bs-warning);
+}
+
+.navbar-nav .nav-item {
+  padding: 0 1.5rem;
+}
+
+.navbar-nav .nav-item .nav-link.active, .navbar-nav .nav-item .nav-link:hover {
+  color: var(--primary-color);
+}

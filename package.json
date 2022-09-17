@@ -1,10 +1,11 @@
 {
   "name": "schoolwebsite",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start" : "node server.js",
+    "start": "ng serve -c development --port 4400",
     "build": "ng build",
+    "build": "ng build --prod --aot",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "heroku-postbuild": "ng build"

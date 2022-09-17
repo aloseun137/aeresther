@@ -111,49 +111,6 @@ h1.page-title {
     text-align: left;
 }
 
-nav {
-    display: block;
-}
-
-.breadcrumbs .trail-items {
-    list-style: none;
-}
-
-.breadcrumbs .trail-items {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background: transparent;
-    text-indent: 0;
-    padding: 4px 0 !important;
-}
-
-.trail-items li {
-    display: inline-block;
-    margin: 0;
-    border: none;
-    background: transparent;
-    text-indent: 0;
-    padding: 4px 0 !important;
-}
-
-.trail-items li::after {
-    content: "\f0da" !important;
-    font-family: FontAwesome !important;
-    padding: 0 9px !important;
-    font-size: 14px;
-    font-weight: normal;
-    position: relative;
-    top: 1px;
-    color: #7f7f84;
-}
-
-.wh-breadcrumbs a {
-    color: #333;
-    text-decoration: none;
-}
-
 #contact-us-info img {
     width: 100%;
 }
@@ -347,7 +304,7 @@ nav {
     display: inline-block;
     text-decoration: none;
     box-shadow: none;
-}       
+}
 
 
 

@@ -1,3 +1,6 @@
+:root {
+  --primary-color: #E6BE1E
+}
 
 body {
 	background: #ffffff none repeat scroll 0 0!important;
@@ -48,7 +51,7 @@ body {
 	vertical-align: middle;
 	overflow: hidden;
 }
-.social_icons li a:hover, 
+.social_icons li a:hover,
 .header_wrap .social_icons li a:hover {
 	color: #3476fe;
 }
@@ -276,8 +279,8 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 	min-width: 10rem;
 	left: -10px;
 }
-.top-header.light_skin .header_list li a:hover, 
-.top-header.light_skin .contact_detail li a:hover, 
+.top-header.light_skin .header_list li a:hover,
+.top-header.light_skin .contact_detail li a:hover,
 .top-header.light_skin .header_list li a:hover span {
 	color: #3476fe;
 }
@@ -296,4 +299,51 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 
 .bg_dark {
     background-color: #1D2224 !important;
+}
+
+
+.wh-breadcrumb nav {
+  display: block;
+}
+
+.wh-breadcrumb .breadcrumbs .trail-items {
+  list-style: none;
+}
+
+.wh-breadcrumb  .breadcrumbs .trail-items {
+  display: inline-block;
+  margin: 0;
+  border: none;
+  background: transparent;
+  text-indent: 0;
+  padding: 4px 0 !important;
+}
+
+.breadcrumb-trail .trail-items li {
+  display: inline-block;
+  margin: 0;
+  border: none;
+  background: transparent;
+  text-indent: 0;
+  padding: 4px 0 !important;
+}
+
+.breadcrumb-trail .trail-items li::after {
+  content: "\f0da" !important;
+  font-family: FontAwesome !important;
+  padding: 0 9px !important;
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  top: 1px;
+  color: #7f7f84;
+}
+
+.wh-breadcrumbs a {
+  color: #333;
+  text-decoration: none;
+}
+
+.wh-breadcrumbs a:hover {
+  color: var(--primary-color);
 }

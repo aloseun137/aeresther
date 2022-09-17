@@ -7,11 +7,12 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { PublicComponent } from './public.component';
 import { SharedModule } from 'src/app/shared/modules/shared/shared.module';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { EventComponent } from './pages/event/event.component';
 
 
 
 @NgModule({
-  declarations: [HomeComponent, ContactUsComponent, PublicComponent, AboutUsComponent],
+  declarations: [HomeComponent, ContactUsComponent, PublicComponent, AboutUsComponent, EventComponent],
   imports: [
     SharedModule,
     RouterModule.forChild(PUBLIC_ROUTES),

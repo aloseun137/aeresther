@@ -1,0 +1,7 @@
+.wh-page-title-bar {
+  background-image: url(/assets/images/about-us-img.jpg);
+  min-height: 150px;
+  background-color: #d0dae3;
+  background-position: center center;
+  border-bottom: 1px solid #e1e1e1;
+}
