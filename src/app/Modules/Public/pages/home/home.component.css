@@ -6,12 +6,8 @@
 .hero-container {
     height: 70vh;
 }
-.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item {
-    height: 100%;
-}
 
 .carousel-control-prev-icon, .carousel-control-next-icon  {
-    background: none;
     background-color: #686D71 ;
     border-radius: 50%;
 }
@@ -85,7 +81,7 @@
     text-align: left;
 }
 
-.notification-icon i{    
+.notification-icon i{
     padding-top: 13px !important;
     padding-right: 13px !important;
     padding-bottom: 13px !important;
@@ -154,8 +150,8 @@ img {
     color:#222222;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
- } 
- 
+ }
+
  .about_section p{
     color: #8d9297;
     line-height: 28px;

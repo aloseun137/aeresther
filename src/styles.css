@@ -9,6 +9,11 @@ body {
     /* font-size: 16px; */
 }
 
+/* owl carousel */
+.owl-carousel .owl-stage-outer{
+  height: 100%;
+}
+
 /* Top header style */
 .top-header {
 	border-bottom: 1px solid #eee;
