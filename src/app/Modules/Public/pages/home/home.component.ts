@@ -26,9 +26,6 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $('.carousel').carousel({
-      interval: false,
-    });
   }
 
 }
